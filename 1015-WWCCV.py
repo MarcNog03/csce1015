@@ -36,6 +36,6 @@ def run_tests():
 
     assert not is_credit_card_valid("1234567890123456"), '1234567890123456 should not pass but did'
 
-    assert not is_credit_card_valid("000000000000"), 'This is a bad test and we will get an error message'
+    assert not is_credit_card_valid("000000000000"), 'This is a bad test and we will get a error message'
 
 run_tests() 
